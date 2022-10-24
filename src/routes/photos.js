@@ -78,8 +78,8 @@ const dataPagination = (offset, limit, dataArray) => {
 
   numberOfPages = Math.ceil(dataArray.length / limit);
   currentPage = offset === 0 ? 1 : Math.ceil((offset + limit) / limit);
-  const limitArray =
-    limit + offset > dataArray.length ? dataArray.length : limitArray;
+  let limitArray = limit + offset;
+  limitArray = limitArray > dataArray.length ? dataArray.length : limitArray;
 
   newData = dataArray.slice(offset, limitArray);
   dataPhotos.pages = numberOfPages;
