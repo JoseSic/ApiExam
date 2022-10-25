@@ -4,7 +4,7 @@ This project was developed with [NodeJs](https://nodejs.org/es/).
 
 ## Prerequisites
 
-1) Node js installed on the system.
+1) [NodeJs](https://nodejs.org/es/) installed on the system.
 
 ## Available Scripts
 
