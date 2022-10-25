@@ -14,5 +14,5 @@ app.set("json spaces", 2);
 app.use("/api/photos", require("./src/routes/photos"));
 
 app.listen(PORT, () => {
-  console.log(` server ejecutandose en el puerto ${PORT}`);
+  console.log(`server running on port ${PORT}`);
 });
